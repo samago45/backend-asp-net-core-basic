@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="E:\OneDrive - fiuni.edu.py\Desarrollo\.Net\web-backend\obj\Debug\net6.0\PubTmp\Out\" />
+  <dbfullsql path="E:\OneDrive - fiuni.edu.py\Desarrollo\.Net\web-backend\obj\Debug\net6.0\PubTmp\EFSQLScripts\webClientsApi.DataAccess.BacKendDBContext.sql" />
+</sitemanifest>

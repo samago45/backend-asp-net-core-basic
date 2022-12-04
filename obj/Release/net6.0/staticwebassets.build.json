@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eGdqdml58975HX7M0HJkxYieHEbD5sXw9TlRhqI4oEE=",
+  "Source": "web-backend",
+  "BasePath": "_content/web-backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

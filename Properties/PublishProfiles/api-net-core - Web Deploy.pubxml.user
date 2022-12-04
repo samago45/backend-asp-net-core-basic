@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMlVIICMK/kK3aS0sR/W8vgAAAAACAAAAAAAQZgAAAAEAACAAAAB9Nb8gODbRv1IS42L3a52ZWs18MKJYR0x8ZmCdKnP9zgAAAAAOgAAAAAIAACAAAABAwlQEPaLJ/5bWPcP3q4ztru31ek15jmh7k2UAIbKAEYAAAAAFDeQ0GyKVMbjSvTGwcBvwZ6dwS8+ZLCXIk0ZyQ6MHzMHxhRBbmUKxs8RjwnEBsEN+mPBaVvOc7CkGdcJ6b8+dWHAKdW0kyINcAiz/HkBA+/81vunekLu+iVmPfYVaHzR1ckdj8ZpkREd/b0Mfv34w6f4/VEFsFqD6epz1TofKpEAAAABTCaGIIrjNEJOsv1k6ansuFuDJHDWV2F8V8zA3QHc05VNTXI6jp5QsZEaB8EUfV4JCkW4I+37tXSJLlHNI8rA6</EncryptedPassword>
+    <History>True|2022-11-30T17:07:07.3575910Z;True|2022-11-30T14:00:08.3217351-03:00;True|2022-11-30T13:51:43.8529615-03:00;False|2022-11-30T13:49:50.4590297-03:00;True|2022-11-30T13:42:53.5875426-03:00;True|2022-11-30T13:28:52.7976927-03:00;False|2022-11-30T13:20:25.6668283-03:00;False|2022-11-30T13:11:10.1534077-03:00;False|2022-11-30T13:02:42.3220749-03:00;False|2022-11-30T12:59:10.0957145-03:00;False|2022-11-30T12:57:38.0908341-03:00;False|2022-11-30T12:55:42.9091870-03:00;False|2022-11-30T12:55:06.9505802-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="BackendDB">
+      <Value>Server=tcp:root12345.database.windows.net,1433%3bInitial Catalog=dev-1%3bPersist Security Info=False%3bUser ID=root12345%3bPassword=123456789%3fCastro%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="webClientsApi.DataAccess.BacKendDBContext">
+      <Value>Server=tcp:root12345.database.windows.net,1433%3bInitial Catalog=dev-1%3bPersist Security Info=False%3bUser ID=root12345%3bPassword=123456789%3fCastro%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

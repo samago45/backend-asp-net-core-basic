@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAMlVIICMK/kK3aS0sR/W8vgAAAAACAAAAAAAQZgAAAAEAACAAAAAP+k/vsElKBr85QsIH22fSTPstB7W0O8CQ5zLdmc/GuAAAAAAOgAAAAAIAACAAAAC4AMxabYrejjDS0zOoUrX6hH6uj5aY0l6zf9eT7CkAioAAAACck0GDJAniPTtQXhcTOrYDGXb5IhYBhgHqS9i9iElAP7H9fG1sSaK4utbbhopE6GL++KijZ/ccsn66xj3DHVnYMuGuCg/Wtgwv/6bWsZRR/f4Ct07hIZmOXdae4kI3UZFFeCN1Iyq7Z0U0im6OAbna5v/S//UdfM8r8o+EGjQC0EAAAACrmS2OJKoCLA97VKzibn45VonwTuwUbgHA4R1///Fea2HM8kold28D2nfR/CdqdzTAw2vro6kk5WGCDVo5YVJp</EncryptedPassword>
+    <History>True|2022-12-04T15:14:58.9587254Z;True|2022-11-30T14:25:19.7620033-03:00;True|2022-11-30T14:17:50.2077114-03:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="BackendDB">
+      <Value>Server=tcp:root12345.database.windows.net,1433%3bInitial Catalog=dev-1%3bPersist Security Info=False%3bUser ID=root12345%3bPassword=123456789%3fCastro%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="webClientsApi.DataAccess.BacKendDBContext">
+      <Value>Server=tcp:root12345.database.windows.net,1433%3bInitial Catalog=dev-1%3bPersist Security Info=False%3bUser ID=root12345%3bPassword=123456789%3fCastro%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
